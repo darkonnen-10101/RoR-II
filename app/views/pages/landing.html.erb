@@ -1,0 +1,33 @@
+<div class="mt-3">
+
+
+
+
+
+<table style="table-layout: fixed!important; width: 300px;!important;">
+
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+    </tr>
+  </thead>
+
+  <tbody>
+      <tr>
+        <% @students.each do |student|%>
+
+        <td><%= student.name %></td>
+        <td><%= student.email %></td>
+      </tr>
+      <% end %>
+
+  </tbody>
+</table>
+
+</div>
+
+
+<div class="mt-5">
+<a class="text-info font-weight-bold" href="https://github.com/Adel-Cabrera/RoR-II">GitHub project's repository</a>
+</div>
